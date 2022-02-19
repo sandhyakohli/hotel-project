@@ -1,11 +1,19 @@
-html,body{
+*{
+    padding:0;
+    box-sizing:border-box;
+}
+html {
+    height: 100%;
+}
+body {
     margin: 0px;
     min-height: 100%;
-    min-width: 100%;
+    background-color: #e0e0e0;
 }
 .container{
  min-width: 100%;
  min-height: 100%;
+
 } 
 
 .logo-1{
@@ -21,4 +29,13 @@ html,body{
 .hotel-big-img{
     max-width: 500px;
     max-height: 500px;
+   
+}
+.Header-Div{
+    background-color: #BC8F8F;
+}
+
+.Footer-Div{
+   
+    background-color: #BC8F8F;
 }

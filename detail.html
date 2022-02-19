@@ -3,6 +3,7 @@
 <head>
     <title>Detail</title>
     <link href="styles/common.css" rel="stylesheet"/>
+    <link href="styles/detail.css" rel="stylesheet"/>
 </head>
 <body>
     <div class="container">
@@ -14,12 +15,13 @@
          
         </div>
         <div class="Content-Div">
-            
+           
                 <img class="hotel-big-img" src="assests/images/IMAGES-PLACES/Radisson-Blu.jpg" alt="Radisson-Blu" >
-                
+          
+        
                    
                  
-                 <form action="payment.html">
+                 <form class="hotel-form" action="payment.html">
                     <label for="Adults">Adults:</label>
                     <input type="number" id="Adults" name="Adults" min="1" oninvalid="this.setCustomValidity('value must be greater than or equal to 1')" oninput="setCustomValidity('')" step="1" required><br/>
                     <label for="name">Name:</label>

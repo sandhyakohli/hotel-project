@@ -1,0 +1,19 @@
+.hotel-pay{
+    
+    background-color:rgb(132,136,139) ;
+    width: 50%;
+    height: 20%;
+    margin: 2% auto;
+}
+.hotel-big-img{
+   max-width: 70%;
+}
+.customer-details{
+    margin: 2%;
+}
+.tariff{
+    margin: 2%;
+    border: 1px black solid;
+    border-radius: 5px;
+    padding: 1% 2%;
+}
