@@ -17,3 +17,9 @@
     border-radius: 5px;
     padding: 1% 2%;
 }
+.pay{
+    display: flex;
+    color: black;
+    text-decoration: none;
+    padding-bottom: 2rem;
+}
