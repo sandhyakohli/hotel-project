@@ -1,17 +1,21 @@
 .hotel-1
 {
-    width: 250px;
-    height: 200px;
+    width: 300px;
+    height: 250px;
     
 }
 
 .hotel_div1,
 .hotel_div2,
 .hotel_div3{
+    display: flex;
    margin: 1% 3% 3% 3%; 
-    background-color:rgb(132,136,139) ;
-    width: 40%;
+    background-color:#ccc ;
+    width: 40vw;
+    height: fit-content;
+    
 }
+
 
 .linked {
     display: flex;
@@ -30,12 +34,26 @@
    justify-content: space-between;
 } 
 .mini1{
+    display: grid;
     text-decoration: none;
     color: black;
     margin-left: 620px;
+    margin-top: 1rem;
+    margin-bottom: 1.8rem;
 }
  .mini2{
     text-decoration: none;
     color: black;
    padding-left: 50px;
 } 
+.description{
+    padding-left: 1rem;
+    padding-top: 1rem;
+}
+
+.h-link
+{
+    display: flex;
+    color: black;
+    text-decoration: none;
+}

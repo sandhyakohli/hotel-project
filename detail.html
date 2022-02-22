@@ -14,31 +14,34 @@
         </a>
             <a class="login" href="login.html" >Login</a>
          
-        </div>
+        </header>
         <div class="Content-Div">
-           
+           <div class="hotel-booking">
+               <div class="hi-div">
                 <img class="hotel-big-img" src="assests/images/IMAGES-PLACES/Radisson-Blu.jpg" alt="Radisson-Blu" >
-          
+            </div>
         
                    
-                 
+                 <div class="payment-form">
                  <form class="hotel-form" action="payment.html">
                     <label for="Adults">Adults:</label>
-                    <input type="number" id="Adults" name="Adults" min="1" oninvalid="this.setCustomValidity('value must be greater than or equal to 1')" oninput="setCustomValidity('')" step="1" required><br/>
+                    <input type="number" id="Adults" name="Adults" min="1" oninvalid="this.setCustomValidity('value must be greater than or equal to 1')" oninput="setCustomValidity('')" step="1" required>
                     <label for="name">Name:</label>
-                    <input type="text" id="name" autocomplete="no" required><br/>
+                    <input type="text" id="name" autocomplete="no" required>
                     <label for="date from">From Date:</label>
-                    <input type="date" id="date from" name="date from" required><br/>
+                    <input type="date" id="date from" name="date from" required>
                     <label for="date to">To Date:</label>
-                    <input type="date" id="date to" name="date to" required><br/>
+                    <input type="date" id="date to" name="date to" required>
                     <label for="Total">Total:</label>
-                    <input type="text" id="Total" name="Total" disabled><br/>
-                    <input type="submit" value="Book Now">
+                    <input type="text" id="Total" name="Total" disabled>
+                    <input class="submit" type="submit" value="Book Now" style="height: 30px;width: 70px">
                 </form>
+            </div>
+        </div>
                 <h2>Radisson-Blu Hotel</h2>
-                <p>Rating</p>
+                <h4>RATING</h4>
                 <p>5 Star</p>
-                <p>AMENITIES</p>
+                <h4>AMENITIES</h4>
                 <ul>
                     <li>Room service</li>
                     <li>Resturant</li>
@@ -46,7 +49,7 @@
                     <li>Fitness Centre</li>
                     <li>Pool</li>
                 </ul>
-                <h5>Description</h5>
+                <h4>DESCRIPTION</h4>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit cupiditate laudantium ratione quas praesentium placeat voluptates ut eaque doloremque eius vel voluptate velit, iusto necessitatibus porro ea alias, asperiores architecto!</p>
 
             
