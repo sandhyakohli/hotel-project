@@ -1,15 +1,21 @@
 *{
-    padding:0;
+    margin: 0;
+   
     box-sizing:border-box;
+    
 
 }
+
 html {
     height: 100%;
+    padding: 0;
+    
 }
 body {
-    margin: 0px;
+  padding: 0;
+     margin: 0px; 
     min-height: 100%;
-    background-color: #e0e0e0;
+     background-color: #e0e0e0 !important; 
     position:relative;
     font-family: 'Ubuntu', sans-serif;
 }
@@ -78,4 +84,14 @@ background-color: #BC8F8F;
       align-self: center;
     font-size: 13px;
      
+  }
+  .form-control{
+    text-decoration: none;
+  }
+  .modal-body{
+    height:10rem;
+  }
+  
+  .m-form{
+    height:100% !important;
   }

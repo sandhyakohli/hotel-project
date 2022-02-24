@@ -13,7 +13,7 @@
     background-color:#ccc ;
     width: 40vw;
     height: fit-content;
-    
+  
 }
 
 
@@ -29,23 +29,12 @@
 .linked-child:first-child {
     margin-right: 20px;
 } 
- li{
+   li{
     display:inline-block;
    justify-content: space-between;
-} 
-.mini1{
-    display: grid;
-    text-decoration: none;
-    color: black;
-    margin-left: 620px;
-    margin-top: 1rem;
-    margin-bottom: 1.8rem;
-}
- .mini2{
-    text-decoration: none;
-    color: black;
-   padding-left: 50px;
-} 
+}   
+  
+  
 .description{
     padding-left: 1rem;
     padding-top: 1rem;
@@ -57,3 +46,30 @@
     color: black;
     text-decoration: none;
 }
+
+
+.h-link:link{
+    text-decoration: none;
+}
+.hotel_div1:hover,
+.hotel_div2:hover,
+.hotel_div3:hover{
+    background-color: #bc8f8f;
+   
+}
+ 
+.nav {
+    margin-top: 1rem;
+    margin-bottom: 1.2rem;
+  }
+  .btn,
+  .btn:active,
+  .btn:focus {
+    box-shadow: none !important;
+    color: black !important;
+    
+  }
+  ul{
+      padding-top: 5px;
+      padding-bottom: 2rem;
+  }

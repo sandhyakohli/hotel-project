@@ -1,3 +1,4 @@
+
 .Content-Div{
     margin-top: 2%;
      margin-left: 4%;
@@ -58,4 +59,7 @@ ul{
   .submit{
       grid-column: 2/-1;
     
+  }
+  h2{
+      padding-top: 2rem;
   }
