@@ -1,6 +1,6 @@
 
 .img-places{
-  position: relative;
+  display: flex;
     width: 150px;
     height: 150px;
     border-radius: 15%;
@@ -28,13 +28,13 @@
  }
 
  .img-container{
-   padding:4%;
+   padding:0;
     display:inline-block;
-    
+    margin: 4%
  }
 
  .img-container:nth-child(3){
-   margin:0;
+   margin:4%;
    
  }
  #Search{
