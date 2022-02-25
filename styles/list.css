@@ -73,3 +73,89 @@
       padding-top: 5px;
       padding-bottom: 2rem;
   }
+  .checked {
+    color: orange;
+  }
+  #map-view{
+      display: none;
+  }
+  /* ************** Responsive for diffrent screen styles ************* */
+
+  @media only screen and (min-width: 50rem) {
+    .Content-Div {
+        min-height: 100vh;
+      }
+      
+}
+  @media only screen and (max-width: 49rem){
+    #list-view,
+    .linked{
+        position: relative;
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-bottom: 2rem;
+      
+    }
+    .container{
+        position: relative;
+        max-width: 100vw;
+        
+    }
+    .Content-Div {
+        max-width: 49rem;
+        min-height: 100vh;
+      }
+      body{
+          max-width: 49rem;
+      }
+      .h-link{
+        flex-direction: row;
+    }
+    .hotel_div1,
+    .hotel_div2,
+    .hotel_div3{
+        min-width: 100%;
+    }
+    .hotel-1{
+        width: 300px;
+    }
+    .map{
+      width: 650px;
+    }
+    #map-view{
+      width: 784px;
+    }
+
+}
+
+
+
+@media only screen and (max-width: 37rem){
+    
+     
+    .Content-Div {
+        max-width: 37rem;
+        min-height: 100vh;
+      }
+      body{
+          max-width: 40rem;
+      }
+      .h-link{
+          flex-direction: column;
+      }
+      .hotel_div1,
+      .hotel_div2,
+      .hotel_div3{
+          min-width: 330px;
+      }
+      .hotel-1{
+          width: 330px;
+      }
+      .map{
+        width: 330px;
+      }
+      #map-view{
+        width: 330px;
+      }
+    }
+  

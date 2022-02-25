@@ -65,3 +65,91 @@ margin-bottom: 200px;
     display: grid;
     text-align: left;
   }
+   /* ************** Responsive for diffrent screen styles ************* */
+   @media only screen and (min-width: 50rem) {
+    .Content-Div {
+      min-width: 100vw;
+      min-height: 100vh;
+
+      }
+      body{
+        max-width: 50rem;
+    }
+    .customer-details{
+     
+      max-width: 45rem;
+      max-height: 100rem;
+    }
+    .hi-div{
+      max-width: 40rem;
+     
+    }
+    .container{
+      min-height: 100vh;
+      min-width: 100vw;
+    }
+    .hotel-pay{
+      min-height: 100vh;
+    }
+    
+  }
+  
+
+
+  @media only screen and (max-width: 49rem){
+    .Content-Div {
+      min-width: 100vw;
+      max-height: 100vh; 
+
+      }
+      body{
+          max-width: 49rem;
+      }
+      .customer-details{
+     
+        max-width: 100%;
+        max-height: 100rem;
+      }
+      .hi-div{
+        max-width: 30rem;
+       
+      }
+      .container{
+        min-height: 100vh;
+        min-width: 100vw;
+      }
+      .hotel-pay{
+        min-height: 100vh;
+      }
+      
+    
+    
+}
+@media only screen and (max-width: 37rem){
+    
+     
+  .Content-Div {
+      max-width: 37rem;
+    }
+    body{
+        max-width: 37rem;
+    }
+    .customer-details{
+      max-width: 20rem;
+      flex-direction: column;
+      max-height: 100rem;
+      font-size: small;
+    }
+    .hi-div{
+      max-width: 37rem;
+      flex-direction: column;
+    }
+    .hotel-big-img{
+      margin-top: 3%;
+      margin-left: 10%;
+    }
+    
+  }
+
+
+

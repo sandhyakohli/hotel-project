@@ -1,5 +1,6 @@
 
 .img-places{
+  position: relative;
     width: 150px;
     height: 150px;
     border-radius: 15%;
@@ -80,6 +81,12 @@
   opacity: 1;
 }
 
+/* ************** Responsive for diffrent screen styles ************* */
+@media only screen and (max-width: 70rem) {
+  .Content-Div {
+    min-height: 100vh;
+  }
+}
 
 
 
